@@ -1,0 +1,110 @@
+* {
+    font-family: 'Borel', cursive;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+}
+
+.bigContainer {
+
+    height: 41.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    border: 2px solid white;
+    background: linear-gradient(130deg, white, rgb(241, 236, 236));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 62%;
+}
+
+
+
+.textInput {
+    display: flex;
+    margin: 10px;
+    width: 75%;
+    height: 71%;
+
+
+
+}
+
+#inputFrom {
+    width: 50%;
+    height: 100%;
+    font-weight: bold;
+    
+
+}
+
+#inputTo {
+    width: 50%;
+    height: 100%;
+    padding-left: 5px;
+}
+
+.textArea {
+    height: 100%;
+    width: 100%;
+    resize: none;
+    font-weight: bold;
+}
+
+.languageSelector {
+
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-bottom: 16px;
+    resize: none;
+    
+}
+
+#translate {
+    width: 75%;
+    height: 3rem;
+    background: linear-gradient(100deg, blue, rgb(100, 173, 202));
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
+
+.fromText {
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: black;
+    width: 8rem;
+    height: 136%;
+    cursor: pointer;
+    resize: none;
+    font-weight: bold;
+}
+
+.TranslateText{
+    height: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    width: 163px;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    margin-top: 8px;
+    
+}

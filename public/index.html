@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bigContainer">
+
+        <div class="container"><span class="TranslateText">Translate Your Text</span>
+            <div class="textInput">
+                <div id="inputFrom">
+                    <textarea placeholder="enter your text here" class="textArea" id="textToTranslate"></textarea>
+                </div>
+                <div id="inputTo">
+                    <textarea placeholder="translation" class="textArea" readonly id="textAfter"></textarea>
+                </div>
+            </div>
+
+
+
+            <div class="languageSelector">
+                <div class="select" id="selectFrom">
+                    <select class="fromText" id="textFrom" >
+                        
+                    </select>
+                </div>
+                <div class="select" id="selectTo">
+                    <select class="fromText" id="textTo">
+                    </select>
+                </div>
+            </div>
+            <button id="translate" >Translate</button>
+        </div>
+    </div>
+
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="countries.js"></script> -->
+    
+</body>
+
+</html>
